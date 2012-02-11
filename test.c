@@ -10,6 +10,9 @@
 #include "transport/thrift_transport.h"
 #include "transport/thrift_socket.h"
 
+/*****************************************************************************
+ * ref: http://tlfabian.blogspot.com/2012/01/thrift-cglib-and-cassandra.html *
+ *****************************************************************************/
 
 int main(int argc, char** argv) {
 	ThriftSocket *tsocket;
